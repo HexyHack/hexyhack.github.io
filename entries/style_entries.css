@@ -1,6 +1,6 @@
 body { color:white; 
     text-align: center; 
-    background-image:url(bg.png);
+    background-image:url(../bg.png);
     background-position: center;
     background-size: cover; 
     font-family:monospace; 
@@ -21,6 +21,12 @@ html {
     margin-right: auto;
     color: #ffffff; }
 
+.menu_s {
+        width: 140px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ffffff; }
 
 a {
     text-decoration: none;
@@ -45,3 +51,9 @@ color:#26c730 }
  {color: green; font-family:monospace; font-size: 20px;}
 .b
  {color: rgb(0, 183, 255); font-family:monospace; font-size: 20px;}
+
+ .entry
+ {
+    font-size: 14px;
+    font-family:monospace;
+ }
