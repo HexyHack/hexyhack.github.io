@@ -9,7 +9,7 @@ body { color:white;
 html {
         color: white;
         align-items: center;
-        display: flex;
+        display: grid;
         height: 100%;
         justify-content: center;
         margin: 0; }
