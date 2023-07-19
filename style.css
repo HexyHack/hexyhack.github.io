@@ -9,7 +9,6 @@ body { color:white;
 html {
         color: white;
         align-items: center;
-        display: flex;
         height: 100%;
         justify-content: center;
         margin: 0; }
@@ -45,3 +44,8 @@ color:#26c730 }
  {color: green; font-family:monospace; font-size: 20px;}
 .b
  {color: rgb(0, 183, 255); font-family:monospace; font-size: 20px;}
+
+ h1 {
+    font-family:monospace; 
+    font-weight: 300;
+ }
