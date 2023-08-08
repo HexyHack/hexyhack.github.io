@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" >
 <link href="../logopfp.png" rel="shortcut icon" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style_entries.css" type="text/css">
+<link rel="stylesheet" href="main_style.css" type="text/css">
 </head>
 <body>  
 <div class="main">
@@ -14,19 +14,30 @@
         <div style="height: 30px">
             <span class="r">Hex</span><span class="g">yH</span><span class="b">ack</span>
         </div>
-    <div style="height: 75px">
+    <div style="height: 65px">
         <table class="menu" > 
             <tr> 
-                <td><a href="../index.html" target="bottom">Home</a></td>
-                <td><a href="list_entries.html" target="bottom">Entries</a></td> 
-                <td><a href="../others/links.html" target="bottom">Useful Links</a></td> 
-                <td><a href="../others/projects.html" target="bottom">Projects</a></td> 
-                <td><a href="../others/thinkpads.html" target="bottom">ThinkPads</a></td>
+                <td><a href="../index.html">Home</a></td>
+                <td><a href="list_entries.html">Blog</a></td> 
+                <td><a href="../others/links.html">Useful Links</a></td> 
+                <td><a href="../others/projects.html">Projects</a></td> 
+                <td><a href="../others/thinkpads.html">ThinkPads</a></td>
             </tr>
         </table>
         <hr width="150px">
 </div>
 </div>
-My entries: <br> <br>
-<a class="entry" href="03-08-23\entry.html">I've made Windows XP Software List (03/08/23)</a> <br>
-<a class="entry" href="17-07-23\entry.html">First entry (19/07/23)</a> <br>
+Blog feed <br> <br>
+<div class="frame" style="background-color: black; width: 550px;height: 750px;">
+    <iframe style="width: 100%; height: 100%; border: 3px ridge rgb(250,250,250); margin-top: 3px; border-radius: 4px;" src="entries.html" name="entryframe"></iframe>
+    <br>
+    <hr width="150px">
+    My entries: <br> <br>
+<div class="navi"style="background-color: black; width: 100%; height: 225px">
+ <b style="font-size: 17px; color:rgb(0, 131, 20)">-</b>
+ <ul>
+     <li><a href="entries.html#03/08/23" target="entryframe">I've made Windows XP Software List (03/08/23)</a></li>
+     <li><a href="entries.html#19/07/23" target="entryframe">First entry (19/07/23)</a></li>
+ </ul>
+</div>
+<div style="height: 100px"></div>
