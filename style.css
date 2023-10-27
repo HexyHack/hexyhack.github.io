@@ -4,7 +4,9 @@ body { color:white;
     background-position: center;
     background-size: cover; 
     font-family:monospace; 
-    font-weight: 500; }
+    font-weight: 500; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
 
 html {
         color: white;
