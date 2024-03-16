@@ -1,54 +1,49 @@
-body { color:white; 
-    text-align: center; 
-    background-image:url(bg.png);
+body {
+    color: white;
+    text-align: center;
+    background-image: url(img/site/bg.png);
     background-position: center;
-    background-size: cover; 
-    font-family:monospace; 
-    font-weight: 500; 
+    background-size: cover;
+    font-family: monospace;
+    font-size: 1.15rem;
     background-repeat: no-repeat;
-    background-attachment: fixed;}
+    background-attachment: fixed;
+}
 
 html {
-        color: white;
-        align-items: center;
-        display: grid;
-        height: 100%;
-        justify-content: center;
-        margin: 0; }
+    color: white;
+    align-items: center;
+    display: grid;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+}
 
 .menu {
-    width: 350px;
+    width: 250px;
     height: 40px;
     margin-left: auto;
     margin-right: auto;
-    color: #ffffff; }
+    color: #ffffff;
+}
 
 
 a {
     text-decoration: none;
-    font-size: 11px;
+    font-size: 1rem;
     font-family: Verdana;
-    color:white
+    color: white
 }
 
 a:visited {
-color:white
+    color: white
 }
 
 a:hover {
-color:#26c730 }
+    color: #26c730
+}
 
-.r
- { color: red; 
-   font-family:monospace; 
-   font-size: 20px;}
-
-.g
- {color: green; font-family:monospace; font-size: 20px;}
-.b
- {color: rgb(0, 183, 255); font-family:monospace; font-size: 20px;}
-
- h1 {
-    font-family:monospace; 
+h1 {
+    font-family: monospace;
     font-weight: 300;
- }
+}
