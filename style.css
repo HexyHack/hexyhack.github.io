@@ -1,6 +1,7 @@
 body {
     color: white;
     text-align: center;
+    background-color: black;
     background-image: url(img/site/bg.png);
     background-position: center;
     background-size: cover;
@@ -46,4 +47,29 @@ a:hover {
 h1 {
     font-family: monospace;
     font-weight: 300;
+}
+
+.list-items {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.fake-link:hover {
+    cursor: pointer;
+    color: #26c730;
+}
+
+.win7bg {
+    position: fixed;
+    z-index: -99;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(60%);
+
+    background-size: 100%;
+    background-image: url('/img/icons/7bg.png');
 }
