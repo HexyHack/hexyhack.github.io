@@ -1,35 +1,78 @@
-@font-face {
-    font-family: 'Old School Adventures';
-    src: url('OldSchoolAdventures.ttf')  format('truetype'); }
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Varela&display=swap');
 
-* 
-{
-    margin: 0;
-    padding: 0;
-    font-family: 'Old School Adventures';
-    color: white
-}
-.bg
-{
-    position: fixed;
-    z-index: -99;
-    width: 100%;
-    height: 100%;
-    filter: brightness(60%);
-    background-repeat: no-repeat;
+body {
+    color: white;
+    text-align: center;
+    background-color: black;
+    background-image: url(img/site/bg.png);
     background-position: center;
     background-size: cover;
-    background-image: url("eseq.gif");
+    font-family: Varela;
+    font-size: 1.15rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.main
-{
-    height: 100%;
-    display: grid;
-    justify-content: center;
+html {
+    color: white;
     align-items: center;
+    display: grid;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu {
+    width: 250px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Jost;
+    color: white
+}
+
+a:visited {
+    color: white
+}
+
+a:hover {
+    color: #26c730
+}
+
+h1 {
+    font-family: monospace;
+    font-weight: 300;
+}
+
+.list-items {
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    text-align: left;
+    align-items: center;
+}
+
+.fake-link:hover {
+    cursor: pointer;
+    color: #26c730;
+}
+
+.win7bg {
+    position: fixed;
+    z-index: -99;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(60%);
+
+    background-size: 100%;
+    background-image: url('/img/icons/7bg.png');
 }
