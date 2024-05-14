@@ -24,8 +24,8 @@ html {
 }
 
 .menu {
-    width: 250px;
-    height: 40px;
+    width: 16rem;
+    height: 2.2rem;
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
@@ -44,7 +44,7 @@ a:visited {
 }
 
 a:hover {
-    color: #26c730
+    color: #b26aff
 }
 
 h1 {
