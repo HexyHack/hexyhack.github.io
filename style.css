@@ -52,6 +52,16 @@ h1 {
     font-weight: 300;
 }
 
+h2 {
+    font-family: monospace;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: monospace;
+    font-weight: 300;
+}
+
 .list-items {
     display: flex;
     flex-direction: column;
